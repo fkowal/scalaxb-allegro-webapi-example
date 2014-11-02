@@ -2,7 +2,7 @@ import com.typesafe.config.ConfigFactory
 import scala.concurrent._
 import scala.concurrent.duration._
 
-object WebapiExample {
+object Main {
 	import scala.concurrent.ExecutionContext.Implicits.global
 
 	def main(args: Array[String]) {
